@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 36px 150px;
+    border-radius: 10px;
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 16px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.10);
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.left-section img{
+      display: flex;
+    align-items: center;
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+
+.challenges{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blogs{
+    margin-right: 10px;
+     text-decoration: none;
+     color: rgba(0,0,0,.55);
+     font-family: poppins;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.blogs:hover{
+    color: black;
+}
+
+.right-section button{
+    display: flex;
+    align-items: center;
+    background-color: #1890ff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+.right-section a{
+    text-decoration: none;
+}
+
+.right-section button:hover{
+    background-color: #42a4ff;
+}
+
+.right-section button img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+.main-sec{
+    margin-top: 32px;
+}
+
+.main-sec h1{
+    margin-bottom: 3px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.main-sec p,li{
+    font-family: poppins;
+    font-size: 13.5px;
+}
+
+.privacy h2{
+    font-size: 23px;
+    font-family:poppins;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.privacy div{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #5b5b5b;
+}
+
+.privacy .p-1{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.privacy .p-2{
+    margin-bottom: 10px;
+}
+
+.definition{
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.definition ul{
+    margin-top: 15px;
+    padding-left:30px;
+}
+
+.definition li{
+    line-height: 21.5px;
+}
+
+.definition span{
+    font-family: arial;
+    font-weight: 700;
+    font-size: 13.5px;
+}
+
+.what ul{
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.how ul{
+    margin-top: 12px;
+    padding-left: 30px;
+}
+
+.when, .what, .how, .could, .how-do{
+    margin-bottom: 30px;
+}
+
+.where{
+    margin-bottom: 35px;
+}
+
+
+.do p{
+   margin-bottom: 22px;
+}
+
+.contact ul{
+    padding-left: 30px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr 1fr 1fr;
+}
+
+.last img{
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.last p{
+    font-family: poppins;
+    font-size: 12px;
+    margin-right: 4px;
+}
+
+.last h1{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.last a{
+    text-decoration: none;
+    color: #4a4a4a;;
+    line-height: 30px;
+    transition: 0.15s;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight:500;
+}
+
+.last a:hover{
+    color: black;
+}
+

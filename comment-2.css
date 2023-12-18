@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 36px 150px;
+    border-radius: 10px;
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    padding: 10px 16px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.10);
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.left-section img{
+      display: flex;
+    align-items: center;
+    height: 35px;
+    margin-right: 20px;
+    margin-left: 12px;
+}
+
+.challenges{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blogs{
+    margin-right: 10px;
+     text-decoration: none;
+     color: rgba(0,0,0,.55);
+     font-family: poppins;
+     font-size: 14px;
+     font-weight: 500;
+}
+
+.blogs:hover{
+    color: black;
+}
+
+.right-section button{
+    display: flex;
+    align-items: center;
+    background-color: #1890ff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+.right-section a{
+    text-decoration: none;
+}
+
+.right-section button:hover{
+    background-color: #42a4ff;
+}
+
+.right-section button img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+.border-1{
+    border-radius: 4px;
+    margin-top: 45px;
+    padding-top: 5px;
+    padding-bottom: 28px;
+    padding-left:05px;
+    padding-right: 5px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.first-sec-1{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+
+.img img{
+    height: 30px;
+    margin-right: 16px;
+    border-radius: 25px;
+}
+
+.img{
+    display: inline-block;
+}
+
+.flex{
+display:inline-block
+}
+
+.flex .dev{
+    text-align:left ;
+    font-family: poppins;
+    font-size: 11px;
+    color: rgb(171, 171, 171);
+}
+
+.flex a{
+    text-decoration: none;
+    color: black;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.15s;
+    display: block;
+}
+
+.first-1 a:hover{
+    color:#117ce0;
+}
+
+.first-sec p,
+.first-sec-1 p{
+    margin-top: 13px;
+    font-family: poppins;
+    font-size: 12px;
+    color: #6c757d;;
+}
+
+.span i{
+     color: rgb(192, 192, 192);;
+     font-size: 10px;
+     margin-top: 20px;
+}
+
+.span a i:hover{
+     color:#b0d9ff;
+}
+
+.span .i-line{
+    margin-left: 16px;
+    margin-right: 16px;
+    vertical-align: middle;
+    width: 1px;
+    height: 20px;
+    background-color: rgb(220, 220, 220);
+    display: inline-block;
+}
+
+.last-line{
+    margin-top: 10px;
+    height: 1px;
+    width: 100%;
+    background-color: #f1f1f1;;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    column-gap: 15px;
+}
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons .live{
+    display: flex;
+    align-items: center;
+    background-color: #2f9afe;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.buttons .live:hover{
+    background-color:#44a5ff;
+}
+
+.buttons .code{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(203, 203, 203);
+    transition: 0.15s;
+    color: black;
+    font-family: poppins;
+    font-weight: 600;
+    transition: 0.30s;
+}
+
+.buttons .code:hover{
+    border-color:#44a5ff;
+    color: #44a5ff;;
+}
+
+.border-2{
+    border-radius: 4px;
+    padding: 50px 30px;
+    margin-top: 30px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.border-2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.border-2-1 .i-tag{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.border-2-1 .p-1{
+    margin-top: 40px ;
+    font-family: poppins;
+    font-size: 20px;
+}
+.border-2-1 .p-2{
+    font-family: poppins;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.border-2-1 .align{
+    height: 8px;
+    width: 700px;
+    color: rgb(74, 74, 74);
+}
+
+.border-2-1 textarea{
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210); 
+    height: 95px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.border-2-1  textarea:hover{
+    border-color:#60b2ff;
+}
+
+.border-2-1 textarea:focus {
+    border-color: #40a9ff;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(24,144,255,.2);
+}
+
+.submit{
+    position: relative;
+    cursor: no-drop;
+    margin-left: 800px;
+}
+
+.submit a{
+    text-decoration: none;
+} 
+
+.login{
+    visibility: hidden;
+    padding:5px;
+    border: none;
+    background-color: rgb(120, 120, 120);
+    font-family:roboto;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(196, 196, 196);
+    font-weight: 500;
+}
+
+.l:hover .login{
+      visibility: visible;
+}
+
+.submit .f{
+    display: flex;
+    align-items: center;
+    background-color: #1890ff;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 14px 24px;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.login button:hover{
+    background-color: #42a4ff;
+}
+
+
+.comment-con{
+    position: relative;
+}
+
+.submit .l{
+    padding:15px;
+    border: none;
+    color: rgb(195, 195, 195);
+    font-family:roboto;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid rgb(196, 196, 196);
+    font-weight: 500;
+}
+
+
+footer{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 3.5fr 1fr 1fr 1fr;
+}
+
+.last img{
+    height: 30px;
+    margin-bottom: 4px;
+}
+
+.last p{
+    font-family: poppins;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.last h1{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.last a{
+    text-decoration: none;
+    color: #4a4a4a;;
+    line-height: 30px;
+    transition: 0.15s;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight:500;
+}
+
+.last a:hover{
+    color: black;
+}
